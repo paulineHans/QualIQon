@@ -1,0 +1,12 @@
+arcDirectory: 
+    class: Directory 
+    path: ../../
+directoryPath: "/dilution_series"
+labelling: "15N"
+FASTA: "./arc/studies/Chlamy_JGI5_5Cp_Mp_gen.fasta"
+folder: "Results"
+pipeline: "ProteomIQon"
+
+
+
+
