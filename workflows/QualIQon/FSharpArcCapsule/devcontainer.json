@@ -1,0 +1,23 @@
+{
+    "name": "F#ARC-Capsule",
+    "dockerFile": "../Dockerfile",
+    "appPort": [8080],
+    "remoteUser": "Pauline",
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+        // Add the IDs of extensions you want installed when the container is created.
+            "extensions":  [
+                "ionide.ionide-fsharp",
+                "editorconfig.editorconfig",        
+                "ionide.ionide-paket",
+                "ionide.ionide-fake",
+                "ms-dotnettools.dotnet-interactive-vscode"
+            ]
+        }
+    },
+    "mounts": [
+        "source=${localWorkspaceFolder}/../../,target=/arc,type=bind,consistency=cached"
+      ]
+} 
+

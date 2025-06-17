@@ -1,0 +1,47 @@
+{
+    "Scope": "Archive.org",
+    "Descriptors": {
+        "d1": {
+            "Hash": "Server",
+            "Name": "Server",
+            "Description": "The primary server to download these files from.",
+            "DataType": "String"
+        },
+        "d2": {
+            "Hash": "ServerAlternate",
+            "Name": "Alternate Server",
+            "Description": "The alternate server to download these files from.",
+            "DataType": "String"
+        },
+        "dir": {
+            "Hash": "Path",
+            "Name": "Server URL Path",
+            "NameShort": "Path",
+            "Description": "The path on the server where these files are located."
+        },
+        "metadata.identifier": {
+            "Hash": "GUID",
+            "Name": "Globally Unique Identifier",
+            "NameShort": "GUID",
+            "Description": "Archive.org unique identifier string."
+        },
+        "metadata.title": {
+            "Hash": "Title",
+            "Name": "Title",
+            "NameShort": "Title",
+            "Description": "The title of the media item."
+        },
+        "metadata.creator": {
+            "Hash": "Creator",
+            "Name": "Creator",
+            "NameShort": "Creator",
+            "Description": "The creator of the media item."
+        },
+        "metadata.mediatype": {
+            "Hash": "Type",
+            "Name": "Media Type",
+            "NameShort": "Type",
+            "Description": "The type of media item."
+        }
+    }
+}

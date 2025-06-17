@@ -1,0 +1,7 @@
+[
+    {
+        "loggertype": "console",
+        "streamtype": "console",
+        "level": "trace"
+    }
+]

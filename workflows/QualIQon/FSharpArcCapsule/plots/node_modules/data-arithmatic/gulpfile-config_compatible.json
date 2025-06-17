@@ -1,0 +1,11 @@
+{
+	"EntrypointInputSourceFile": "./source/DataArithmatic-Browser-Shim.js",
+
+	"LibraryObjectName": "DataArithmatic",
+
+	"LibraryOutputFolder": "./dist/",
+
+	"LibraryUniminifiedFileName": "dataarithmatic.compatible.js",
+
+	"LibraryMinifiedFileName": "dataarithmatic.compatible.min.js"
+}
